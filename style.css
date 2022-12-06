@@ -1,0 +1,550 @@
+@charset "utf-8";
+/* CSS Document */
+#home {
+	background-image: url( "pozadina.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+}
+
+#about {background-image: url( "pozadina2.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+	margin: 0;
+    min-height: 100vh;
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+ #contact {
+	 background-image: url( "pozadina3.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+}
+
+ #recommendations {
+	 background-image: url( "pozadina4.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+}
+
+#join {
+	background-image: url("pozadina5.jpg");
+	background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+    font-family:LaviossaMedium;
+}
+
+#polica {background-image: url("pozadina10.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+#police {
+    
+    border: 5px solid black;
+    box-sizing: border-box;
+    font-weight: bold;
+    line-height: 140px;
+    position: absolute;
+	
+}
+
+
+.red1 {
+    top: 165px;
+    font-family: Calibry;
+    font-size: 20px;
+	
+}
+.red2 {
+    top: 410px;
+    font-family: Times;
+    font-size: 20px;
+}
+
+
+.stupac1 {
+    
+	width: 25px;
+	height: 150px;
+	
+}
+.stupac2 {
+   
+    width: 25px;
+	height: 150px;
+}
+.stupac3 {
+    
+    width: 25px;
+	height: 150px;
+}
+.stupac4 {
+  
+   width: 25px;
+	height: 150px;
+}
+.stupac5 {
+  
+   width: 25px;
+	height: 150px;
+}
+
+
+
+
+.red1.stupac1 {
+    background-color: #4F1722;
+	left: 480px;
+	border: 5px solid black;
+    box-sizing: border-box;
+    font-weight: bold;
+    line-height: 140px;
+    position: absolute;
+    
+}
+.red1.stupac2 {
+    background-color: #B18676;
+	 text-transform: rotate(45deg);
+	 left: 800px;
+	border: 5px solid black;
+    box-sizing: border-box;
+    font-weight: bold;
+    line-height: 140px;
+    position: absolute;
+}
+.red1.stupac3 {
+    background-color: #898989;
+	left: 1050px;
+	border: 5px solid black;
+    box-sizing: border-box;
+    font-weight: bold;
+    line-height: 140px;
+    position: absolute;
+	
+}
+.red1.stupac4 {
+    background-color: #7C222E;
+	left: 1100px;
+	border: 5px solid black;
+    box-sizing: border-box;
+    font-weight: bold;
+    line-height: 140px;
+    position: absolute;
+}
+.red1.stupac5 {
+    background-color: #1A393B;
+	left: 1250px;
+	border: 5px solid black;
+    box-sizing: border-box;
+    font-weight: bold;
+    line-height: 140px;
+    position: absolute;
+}
+.red2.stupac1 {
+    background-color: #1A393B;
+	left:600px;
+	border: 5px solid black;
+    box-sizing: border-box;
+    font-weight: bold;
+    line-height: 140px;
+    position: absolute;
+}
+.red2.stupac2 {
+    background-color: #7C222E;
+	left:750px;
+	border: 5px solid black;
+    box-sizing: border-box;
+    font-weight: bold;
+    line-height: 140px;
+    position: absolute;
+}
+.red2.stupac3 {
+    background-color: #B18676;
+	left:1300px;
+	border: 5px solid black;
+    box-sizing: border-box;
+    font-weight: bold;
+    line-height: 140px;
+    position: absolute;
+}
+.red2.stupac4 {
+    background-color: #4F1722;
+	left:1325px;
+	border: 5px solid black;
+    box-sizing: border-box;
+    font-weight: bold;
+    line-height: 140px;
+    position: absolute;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .container div {
+        border-radius: 50%;
+        border-width: 1px;
+        position: static;
+        float: left;
+    }
+
+    .red3.stupac3 {
+        color: inherit;
+    }
+
+    .red5.stupac5 {
+        display: none;
+    }
+}
+
+#h1 {
+	font-family: "LaviossaMedium";
+	font-size: 20px; 
+	background-color: beige;
+	padding: 6px;
+   }
+
+#h2 {
+	font-family: "LaviossaMedium";
+    font-size: 100px;
+	margin-left: 325px;
+	margin-top: 175px;
+	
+} 
+@font-face {
+    font-family: LaviossaMedium;
+    src: url(  "LaviossaMedium.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#header ol.prvi {
+    font-family: LaviossaMedium;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+}
+
+#header ol.prvi li {
+    display: inline;
+    background-color: darkgray;
+
+    margin-left: 3px;
+    margin-top: 10px;
+    padding: 0 20px;
+}
+
+#link , #link2 , #link3, #link4, #link5, #link6,#link10,#link7, #link16{color:black}
+
+     
+#lista .prva {
+	font-family: LaviossaMedium;
+    font-size: 20px;
+    color: black;
+
+    list-style-type: upper-alpha;
+}
+
+#lista .prva em  {
+	color: saddlebrown;
+    font: bold italic 26px/1em "LaviossaMedium";
+}
+
+#naslov {
+	font-family: LaviossaMedium;
+	font-size: 50px;}
+
+#contactlist, #tablica3, #tablica3 li {
+	font-family: 'Comfortaa', cursive;
+	font-size: 30px;
+	
+}
+
+#tablice { 
+	background-image: url("pozadina6.jpg");
+	background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+	font-family: LaviossaMedium;
+	margin-bottom: 100px;
+}
+
+.T td{
+    border: 4px outset;	
+}
+
+
+#tablice table { float:left;
+   border-collapse: collapse;
+}
+
+#tablice h1{font-size: 50px;
+border-bottom: 3px double;}
+
+.T1 th {
+    font-size: 20px;
+    font-weight: bold;
+    background-color:#769EAD;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    height: 40px;
+}
+
+
+#naslov1, #naslov2 {
+	font-weight: bold;
+    background-color: #769EAD;
+	  color: white;
+}
+
+#tablica2 { margin-left: 800px;
+margin-bottom: 900px;}
+
+#tablice tr:nth-child(2n) {
+    background-color: whitesmoke;
+}
+
+#tablica3 li {
+	font-size:30px;
+
+}
+
+#tablica3 ul {
+    width: 300px;
+	height: 250px;
+    background-color:wheat;
+    border-bottom: 1px solid white;
+	border: dashed;
+	 list-style: circle;
+    padding: 0;
+}
+
+#tablica3 li a {
+    color: lightslategrey;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#tablica3 li:first-child a:hover {
+    font-family: LaviossaMedium;
+    font-size: 30px;
+    text-shadow: 5px 5px 2px white;
+}
+
+#tablica3 li:nth-child(2) a:hover {
+    font-style:italic;
+}
+
+
+#tablica3 li:nth-child(3) a:hover {
+    background-color: darkgray;
+}
+	
+	#drugi {font-family: "LaviossaMedium";
+            font-size: 20px;
+		color: saddlebrown;
+}
+
+#prvi {font-family: LaviossaMedium;	
+font-size: 40px; 
+color: darkslategray;
+}
+
+.svi{margin-left: 600px;}
+
+#oblik table {
+    width: 20px;
+    height: 100px;
+	float:right;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+#crveni {
+    background-color: #BE3C3E;
+    border-radius: 300px 300px 300px 300px;
+}
+
+#zeleni {
+    background-color: #788D46;
+    border-radius: 300px 300px 300px 300px;
+}
+
+#smedji {
+    background-color: #B17D53;
+    border-radius: 300px 300px 300px 300px;
+}
+
+#crni {
+    background-color: #171D1D;
+    border-radius: 300px 300px 300px 300px;
+}
+
+#join { margin: 50px;
+    font-family:LaviossaMedium;}
+
+form {
+	float:left;
+	margin: 55px;
+}
+
+legend{font-size: 14px;}
+
+#form1{ width: 500px;
+    padding: 50px;
+    background-color: #769EAD;
+    border: 2px double #EAD8D8;
+    border-radius: 5px;
+}
+
+#form2{ width: 500px;
+    padding: 40px;
+    background-color: #769EAD;
+    border: 2px double #EAD8D8;
+    border-radius: 5px;
+}
+
+input, fieldset, select {
+    font-size: 10px;
+    width: 77%;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgba(255,255,255,.5);
+    border: 2px solid #EAD8D8;
+    box-sizing: border-box;
+	font-family: LaviossaMedium;
+}
+
+input:focus {
+    background-color: #EAD8D8;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+}
+
+fieldset input {
+    width: 10%;
+}
+fieldset label {
+    display: inline-block;
+    width: 80%;
+}
+
+#other1{width: 300px;}
+
+input[type="submit"], input[type="reset"] {
+    width: 100px;
+    height: 50px;
+    padding: 4px;
+    margin-left: 15px;
+    box-shadow: 3px 3px 3px #EAD8D8;
+	font-size: 14px;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    box-shadow: 3px 5px 3px whitesmoke;
+}
+
+input[type="color"] {
+    height: 60px;
+    padding: 2px;
+}
+
+#murakami {
+   float: left;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 0;
+}
+main {
+    padding: 100px;
+    background-image: url("pozadina12.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+main iframe {
+    display:block;
+    margin: 190px 450px auto 350px;
+    width: 300px;
+    height: 250px;
+}
+
+
+aside {
+    position: absolute;
+    right: 50px;
+    padding: 100px 0 0;
+    width:180px;
+}
+
+aside a, aside img {
+    display: block;
+    width: 100%;
+}
+aside a {
+    margin-bottom: 1rem;
+    border: 1px solid black;
+    height: 102px;
+    overflow: hidden;
+}
+
+#ekran{
+height: 210px;
+	width: 250px;
+  margin: 50px 500px  ;
+    box-sizing: border-box;
+    padding: 27px 15px 80px;
+	 position: absolute;
+}
+#ekran iframe{
+	 height: 190px;
+	width: 225px;
+	 position: absolute;
+}
+
+#gramofon{
+	margin:255px 850px ;
+	height: 70px;
+	width: 200px;
+	background-image: url("gramofon.jpg");
+	 position: absolute;
+	
+}
+
+#gramofon iframe{
+	height: 70px;
+	width: 200px;
+	 position: absolute;
+}
+
+#knjige {
+	height: 90px;
+	width: 150px;
+	background-image: url("knjige.jpg");
+	margin: 240px 300px  ;
+	 position: absolute;
+}
+
+#h1, #header{
+	margin: auto;
+	 position: relative;
+}
+
+#biljka{
+	height:250px;
+	width: 200px;
+	background-image: url("ruze.png");
+	 position: absolute;
+	margin-left: 1250px;
+	margin-top: 70px;
+}

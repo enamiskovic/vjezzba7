@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>join</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body id="join">
+	<h1>Join my bookclub</h1>
+	<p>If you wish to join my bookclub and attend monthly meetings - fill out the form below! :) <br>
+	By joining you get access to a group chat with all the other members where you can discuss current readings and schedule upcoming meetings.  We accept readers from all over the world as we provide zoom meetings as well.  
+	</p>
+	<br>
+	 <form id="form1" action="">
+        <label for="name">Name</label>
+       <input type="text" id="ime" placeholder="Your name..." autofocus required>
+        <label for="surname">Surname</label>
+        <input type="text" id="surname" placeholder="Your surname..." required>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" required>
+		  <label for="password">Password</label>
+        <input type="password" id="password" maxlength="10" required>
+		  <label for="birthdate">Birthdate</label>
+        <input type="date" id="birthdate">
+        <label for="web">Web address</label>
+       <input type="url" id="web" placeholder="grf.unizg.hr">
+        <label for="mobile">Mobile number</label>
+        <input type="number" id="mobile">
+		 
+		  <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" value="M" id="M" name="gender"><label for="M">Male</label> 
+            <input type="radio" value="F" id="F" name="gender"><label for="F">Female</label>
+			  <input type="radio" value="O" id="O" name="gender"><label for="O">Other</label>
+        </fieldset>
+		 
+<fieldset>
+		  <legend>Choose favourite genres</legend> 
+	<input type="checkbox" id="fiction">
+	<label for="fiction">Fiction</label><br>
+      <input type="checkbox" id="thriller">
+      <label for="scales">Thriller</label><br>
+      <input type="checkbox" id="romance">
+      <label for="romance">Romance</label><br>
+	<input type="checkbox" id="non-fiction">
+	<label for="non-fiction">Non-fiction</label><br>
+	<input type="checkbox" id="mystery">
+	<label for="mystery">Mystery</label><br>
+	<input type="checkbox" id="biography">
+	<label for="biography">Biography</label><br>
+	<input type="checkbox" id="poetry">
+	<label for="poetry">Poetry</label><br>
+	<input type="checkbox" id="Horror">
+	<label for="horror">Horror</label><br>
+	<input type="checkbox" id="graphicnovel">
+	<label for="graphicnovel">Graphic novel</label><br>
+	<input type="checkbox" id="memoir">
+	<label for="memoir">Memoir</label><br>
+	<input type="checkbox" id="other">
+	  <label for="other">Other</label>
+        <input type="text" id="other1" placeholder="Write other genres" >
+		 </fieldset>
+		 
+    </form>
+	
+	<form id="form2" action="" >
+		
+
+        <label for="meetings">Choose how you would like to attend club meetings</label>
+        <select name="meetings">
+            <option>Online (zoom)</option>
+            <option>In person (exact location will be sent via email)</option>
+        </select>
+		
+
+       <label for="color"> All new members recieve a welcoming gift including a custom colored bookmark. Here you can choose your color:</label>
+       <input type="color" id="color" name="color" value="#EAD8D8">
+		
+
+        <label for="poruka">Write us a message if you want:</label>
+		
+       <input type="text" id="message" name="message">
+
+      
+       <input type="submit" value="Sign up">
+		 <input type="reset" value="Cancel">
+		
+			
+		
+</form>
+	
+	</form>
+</body>
+</html>
